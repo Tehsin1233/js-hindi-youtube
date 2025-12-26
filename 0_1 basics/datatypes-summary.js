@@ -28,8 +28,31 @@ const heros = ["shaktiman", "naagraj", "doga"];
 }
 
 const myfunction = function(){
-    console.log("hello world");
+    // console.log("hello world");
     
 }
 
-console.log(typeof anotherid);
+// console.log(typeof anotherid);
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+
+// STACK(Primitive), HEAP(Non - Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode" 
+console.log(anothername);
+console.log(myYoutubename);
+
+
+let userone = {
+    email:"user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userone
+userTwo.email = "hitesh@google.com"
+
+console.log(userone.email);
+console.log(userTwo.email);
