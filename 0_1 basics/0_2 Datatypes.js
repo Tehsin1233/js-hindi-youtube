@@ -24,7 +24,7 @@ console.log(3
 
     console.log(typeof"tehsin")
     console.log(typeof age)
-    // console.log(typeof null) Object
+    // console.log(typeof null) => Object
     // console.log(typeof undefined) undefined
 
     
