@@ -1,5 +1,3 @@
-const { jsx } = require("react/jsx-runtime")
-
 1 //  Singleton
 // Object.create
 
@@ -17,7 +15,7 @@ const Jsuser = {
     LastLoginDays: ['Monday','Saturday']
 }
 
-console.log(Jsuser.email)
+// console.log(Jsuser.email)
 // console.log(Jsuser["email"])
 // // console.log(Jsuser["Full name"])
 // // console.log(Jsuser.mySym);
@@ -25,5 +23,22 @@ console.log(Jsuser.email)
 
 // console.log(typeof Jsuser[mySym]);
 
-jsx.email = "Hitesh@chatgpt.com"
-console.log(Jsuser.email)
+Jsuser.email = "Hitesh@chatgpt.com"
+
+// Object.freeze(Jsuser)
+
+Jsuser.email = "hitesh@microsoft.com"
+// console.log(Jsuser); 
+
+// console.log(Jsuser.email)
+
+Jsuser.greeting = function(){
+    console.log("Hello JS user");
+}
+
+Jsuser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
+}
+
+console.log(Jsuser.greeting());
+console.log(Jsuser.greetingTwo());
