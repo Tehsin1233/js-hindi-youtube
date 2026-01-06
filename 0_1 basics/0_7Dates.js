@@ -1,6 +1,6 @@
 // DATES 
 
-let myDate = new Date()
+// let myDate = new Date()
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
 // console.log(myDate.toLocaleString());
@@ -14,8 +14,8 @@ let myDate = new Date()
 // let myCreatedDate = new Date(2025,0,23,5,3)
 // console.log(myCreatedDate.toDateString());
 
-// let myCreatedDate = new Date("2025-01-14")
-let myCreatedDate = new Date("01-14-2025")
+let myCreatedDate = new Date("2025-01-14")
+// let myCreatedDate = new Date("01-14-2025")
 // console.log(myCreatedDate.toLocaleString());
 
 let mytTimeStamp = Date.now()
