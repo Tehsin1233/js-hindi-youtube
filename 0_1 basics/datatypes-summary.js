@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherid = Symbol('123')
 
-console.log(id == anotherid)
+// console.log(id == anotherid)
 
 // const bigNumber = 3458795121365n
 
@@ -42,8 +42,8 @@ const myfunction = function(){
 let myYoutubename = "hiteshchoudharydotcom"
 let anothername = myYoutubename
 anothername = "chaiaurcode" 
-console.log(anothername);
-console.log(myYoutubename);
+// console.log(anothername);
+// console.log(myYoutubename);
 
 
 let userone = {
@@ -54,5 +54,5 @@ let userone = {
 let userTwo = userone
 userTwo.email = "hitesh@google.com"
 
-console.log(userone.email);
-console.log(userTwo.email);
+// console.log(userone.email); 
+// console.log(userTwo.email);
