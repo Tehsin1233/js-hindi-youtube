@@ -1,9 +1,9 @@
-// let score = true
+let score = true
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
-// let valueInNumber = Number(score)
+let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -57,7 +57,7 @@ console.log(true);
 console.log(+"");
 
 let gameCounter = 100
-// gameCounter++;
+gameCounter++;
 // ++gameCounter;
 console.log(gameCounter);
 
